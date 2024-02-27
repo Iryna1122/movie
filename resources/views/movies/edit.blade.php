@@ -11,7 +11,6 @@
                 <label for="title">Назва фільму:</label>
                 <input type="text" name="title" id="title" class="form-control" value="{{$movie->title}}" required>
             </div>
-
             <div class="form-group">
                 <label for="genre">Жанр фільму:</label>
                 <select name="genre_id" id="genre" class="form-control" required>
